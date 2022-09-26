@@ -1,4 +1,5 @@
-# Leds-Arduino
+#include <stdio.h>
+
 void setup(){
   for (int i=8; i<=11; i++)
     pinMode(i , OUTPUT);
